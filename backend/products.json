@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "name": "Versace- Designer Sunglasses",
+      "category": "Accessories",
+      "price": 299,
+      "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Library-Sites-ver-library/default/dwd4570079/images/world-of-versace/eyewear-03-01-img-120720-mob.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Christian Dior Vintage Watch",
+      "category": "Accessories",
+      "price": 1999,
+      "image": "https://viange.in/cdn/shop/files/3DA6803E-E612-4353-8254-D17F3B4270EC_1024x1024@2x.jpg?v=1721909228"
+    },
+    {
+      "id": 3,
+      "name": "Gucci Guilty- Elixir de parfum",
+      "category": "Fragrance",
+      "price": 149,
+      "image": "https://delhidutyfree.co.in/media/catalog/product/cache/d58eb6b6cd0b875591a577c8f7a3618e/4/_/4_1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Herme`s Birkin Bag",
+      "category": "Women's Accessories",
+      "price": 599,
+      "image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/03/931/523/picnic-birkin-hermes.jpg?ve=1&tl=1"
+    },
+    {
+      "id": 5,
+      "name": "Versace - Silk Scarf",
+      "category": "Accessories",
+      "price": 129,
+      "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8d5d4b4e/original/90_IBA0005-1A06723_5B000_24_Barocco~Silk~Scarf~Tie-Accessories-Versace-online-store_2_1.jpg?sw=1200&q=85&strip=true"
+    },
+    {
+      "id": 6,
+      "name": "Jimmy Choo- Designer heels",
+      "category": "Footwear",
+      "price": 499,
+      "image": "https://cdn.salla.sa/GEonV/QT2vT2B0DyYjAGu2kAnOdbiAPv6f0ysTAlEhp2qY.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Prada-Leather Wallet",
+      "category": "Accessories",
+      "price": 99,
+      "image": "https://imissyouvintage.com/cdn/shop/products/image_73fb7907-e674-4369-be88-062d411dc10d_1100x.jpg?v=1575932235"
+    },
+    {
+      "id": 8,
+      "name": "Dior Prestige Skincare Set",
+      "category": "Beauty",
+      "price": 299,
+      "image": "https://shop-beauty.dior.ae/cdn/shop/files/Y4001188_C400100901_E02_GHC.jpg?v=1730194791&width=833"
+    },
+    {
+      "id": 9,
+      "name": "Armani Suit",
+      "category": "Clothing",
+      "price": 1299,
+      "image": "https://assets.armani.com/image/upload/f_auto,q_auto,ar_4:5,w_2457,c_lfill/FW24-25_GA_ADV_CATALOGO_M_16_1080_x_1350"
+    },
+    {
+      "id": 10,
+      "name": "Chanel Classic Flap Bag",
+      "category": "women-new",
+      "price": 4999,
+      "image": "https://sites.create-cdn.net/siteimages/24/5/0/245036/21/1/3/21130418/1000x726.jpg?1722249614"
+    },
+    {
+      "id": 11,
+      "name": "Rolex Daytona",
+      "category": "men-new",
+      "price": 29999,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnqaccxrBCPc9q8wZw9b-W0ZIwqoPe10YQA&s"
+    },
+    {
+      "id": 12,
+      "name": "Louis Vuitton Keepall",
+      "category": "Accessories",
+      "price": 1799,
+      "image": "https://in.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-55--M56714_PM1_Ambiance%20view.jpg"
+    },
+    {
+      "id": 1,
+      "name":"YSL- rouge pur couture lipstick",
+      "category": "Makeup",
+      "price": 35,
+      "image": "https://www.godwell.com.hk/api/image/t512/985717839987eb066a219521583862fdabb31cf53038677489d361bc88aebe15.jpg"
+  },
+  {
+      "id": 2,
+      "name": "Dior- Anti-Aging Serum",
+      "category": "Skincare",
+      "price": 89,
+      "image": "https://www.dior.com/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw20ccc52b/images/beauty/03-SKINCARE/2024/PRESTIGE-LES-NECTARS-DE-ROSE/PST_Nectar_Mood_Gamme-Nectar-Baume-Minuit-Rose_2400x3000.jpg"
+  },
+  {
+      "id": 3,
+      "name": "Prada Candy ",
+      "category": "Fragrance",
+      "price": 120,
+      "image": "https://i.pinimg.com/originals/d2/b8/c2/d2b8c254113eae421fbbc977d00e40c3.jpg"
+  },
+  {
+      "id": 4,
+      "name": "YSL-Eyeshadow Palette",
+      "category": "Makeup",
+      "price": 55,
+      "image": "https://images-static.nykaa.com/media/catalog/product/3/a/3a186b83614273921725-8.jpg?tr=w-500"
+  }
+  ]

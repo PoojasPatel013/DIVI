@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './header.css';
+:root {
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-secondary);
+  @apply bg-white;
+}
+
+/* Navigation Styles */
+.nav-link {
+  @apply relative py-2 text-gray-700 hover:text-black transition-colors;
+}
+
+.nav-dropdown {
+  @apply invisible opacity-0 absolute top-full left-0 w-48 bg-white border border-gray-100 rounded-lg shadow-lg 
+         transition-all duration-200 transform -translate-y-2 pointer-events-none;
+}
+
+.group:hover .nav-dropdown {
+  @apply visible opacity-100 translate-y-0 pointer-events-auto;
+}
+
+.nav-dropdown a {
+  @apply block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors;
+}
+
+/* Header Icons */
+.header-icon {
+  @apply w-5 h-5 text-gray-700 hover:text-black transition-colors;
+}
+
+.cart-count {
+  @apply absolute -top-2 -right-2 w-5 h-5 flex items-center justify-center 
+         bg-black text-white text-xs rounded-full font-medium;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  @apply fixed inset-0 bg-white z-50 transform transition-transform duration-300 ease-in-out;
+}
+
+.mobile-menu.hidden {
+  @apply translate-x-full;
+}
+
+/* Hero Slider */
+#heroSlider {
+  @apply h-[600px] relative overflow-hidden;
+}
+
+.slide {
+  @apply absolute inset-0 opacity-0 transition-opacity duration-500;
+}
+
+.slide.active {
+  @apply opacity-100;
+}
+
+/* Container */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}

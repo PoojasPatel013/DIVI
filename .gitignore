@@ -1,0 +1,18 @@
+# Node modules (backend and frontend)
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files
+backend/.env
+
+# Lock files (optional to ignore)
+backend/package-lock.json
+frontend/package-lock.json
+
+
+# Optional: Ignore logs
+*.log
+
+# Optional: Ignore build artifacts if applicable (e.g., dist or build folders)
+dist/
+build/
