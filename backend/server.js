@@ -115,6 +115,33 @@ app.get("/api/product/:id", async (req, res) => {
   }
 })
 
+// New search endpoint
+app.get("/api/search", async (req, res) => {
+  try {
+    console.log("Searching products...")
+    if (products.length === 0) {
+      await loadProducts()
+    }
+
+    const { query } = req.query
+    if (!query) {
+      return res.status(400).json({ message: "Search query is required" })
+    }
+
+    const searchResults = products.filter(
+      (product) =>
+        product.name.toLowerCase().includes(query.toLowerCase()) ||
+        product.category.toLowerCase().includes(query.toLowerCase()),
+    )
+
+    console.log(`Found ${searchResults.length} results for query: ${query}`)
+    res.json(searchResults)
+  } catch (error) {
+    console.error("Error searching products:", error)
+    res.status(500).json({ message: "Internal server error" })
+  }
+})
+
 app.post("/api/register", async (req, res) => {
   try {
     const { email, password } = req.body
@@ -163,6 +190,7 @@ app.get("/api/user", authenticateToken, async (req, res) => {
     res.status(500).json({ message: "Error fetching user" })
   }
 })
+
 
 // Start server after loading products
 loadProducts().then(() => {

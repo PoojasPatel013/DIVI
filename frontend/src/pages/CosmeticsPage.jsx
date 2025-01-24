@@ -17,7 +17,7 @@ const CosmeticsPage = () => {
         const data = {
           featured: [
             {
-              id: 1,
+              id: 13,
               name: "YSL- rouge pur couture lipstick",
               category: "Makeup",
               price: 35,
@@ -25,7 +25,7 @@ const CosmeticsPage = () => {
                 "https://www.godwell.com.hk/api/image/t512/985717839987eb066a219521583862fdabb31cf53038677489d361bc88aebe15.jpg",
             },
             {
-              id: 2,
+              id: 14,
               name: "Dior- Anti-Aging Serum",
               category: "Skincare",
               price: 89,
@@ -33,14 +33,14 @@ const CosmeticsPage = () => {
                 "https://www.dior.com/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw20ccc52b/images/beauty/03-SKINCARE/2024/PRESTIGE-LES-NECTARS-DE-ROSE/PST_Nectar_Mood_Gamme-Nectar-Baume-Minuit-Rose_2400x3000.jpg",
             },
             {
-              id: 3,
+              id: 15,
               name: "Prada Candy",
               category: "Fragrance",
               price: 120,
               image: "https://i.pinimg.com/originals/d2/b8/c2/d2b8c254113eae421fbbc977d00e40c3.jpg",
             },
             {
-              id: 4,
+              id: 16,
               name: "YSL-Eyeshadow Palette",
               category: "Makeup",
               price: 55,
@@ -49,21 +49,21 @@ const CosmeticsPage = () => {
           ],
           trending: [
             {
-              id: 5,
+              id: 17,
               name: "Chanel-Hydra Beauty, Hydrating Face Mask",
               category: "Skincare",
               price: 45,
               image: "https://i.ebayimg.com/images/g/XisAAOSwY9Fl34H-/s-l1200.jpg",
             },
             {
-              id: 6,
+              id: 18,
               name: "Rare beauty- Volumizing Mascara",
               category: "Makeup",
               price: 28,
               image: "https://pbs.twimg.com/media/GGt4I84WUAIvL2U.jpg:large",
             },
             {
-              id: 7,
+              id: 19,
               name: "GUCCI- Unisex Cologne",
               category: "Fragrance",
               price: 85,
@@ -71,7 +71,7 @@ const CosmeticsPage = () => {
                 "https://www.perfumenetwork.in/cdn/shop/files/15Untitleddesign_b0c9776a-47d7-430e-aabc-d97b2e29d67d_1024x1024.png?v=1691906013",
             },
             {
-              id: 8,
+              id: 20,
               name: "Dior Sauvage- Brightening Toner",
               category: "Skincare",
               price: 32,

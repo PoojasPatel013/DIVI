@@ -4,7 +4,7 @@ import { Search, User, ShoppingBag, Menu, X, ChevronDown } from "lucide-react"
 import { CartContext } from "../contexts/CartContext"
 import "../styles/header.css"
 
-function Header({ openCart, openProfileModal, openSearchModal }) {
+function Header({ openCartSidebar, openProfileModal, openSearchModal }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const { cart } = useContext(CartContext)
 
@@ -107,7 +107,7 @@ function Header({ openCart, openProfileModal, openSearchModal }) {
             <button className="header-icon" onClick={openProfileModal}>
               <User className="w-5 h-5" />
             </button>
-            <button className="header-icon relative" onClick={openCart}>
+            <button className="header-icon relative" onClick={openCartSidebar}>
               <ShoppingBag className="w-5 h-5" />
               <span className="cart-count">{cartItemCount}</span>
             </button>

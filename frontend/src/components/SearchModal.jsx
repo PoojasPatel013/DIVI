@@ -1,35 +1,41 @@
 import React, { useState, useEffect } from "react"
-import { X } from 'lucide-react'
+import { X } from "lucide-react"
 import { Link } from "react-router-dom"
 
 const SearchModal = ({ isOpen, onClose }) => {
   const [searchQuery, setSearchQuery] = useState("")
   const [results, setResults] = useState([])
-  const [products, setProducts] = useState([])
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
 
   useEffect(() => {
     if (isOpen) {
       setSearchQuery("")
       setResults([])
+      setError(null)
     }
   }, [isOpen])
 
-  useEffect(() => {
-    // Load products.json when the component mounts
-    fetch('/products.json')
-      .then(response => response.json())
-      .then(data => setProducts(data))
-      .catch(error => console.error('Error loading products:', error))
-  }, [])
-
-  const handleSearch = () => {
+  const handleSearch = async () => {
     if (!searchQuery.trim()) return
 
-    const filteredProducts = products.filter(product =>
-      product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      product.category.toLowerCase().includes(searchQuery.toLowerCase())
-    )
-    setResults(filteredProducts)
+    setLoading(true)
+    setError(null)
+
+    try {
+      const response = await fetch(`/api/search?query=${encodeURIComponent(searchQuery)}`)
+      if (!response.ok) {
+        throw new Error("Search failed")
+      }
+      const data = await response.json()
+      setResults(data)
+    } catch (error) {
+      console.error("Error searching products:", error)
+      setError("An error occurred while searching. Please try again.")
+      setResults([])
+    } finally {
+      setLoading(false)
+    }
   }
 
   const handleKeyPress = (e) => {
@@ -58,31 +64,30 @@ const SearchModal = ({ isOpen, onClose }) => {
             placeholder="Search for products..."
             className="w-full border p-2 rounded-lg"
           />
-          <button onClick={handleSearch} className="bg-black text-white px-4 py-2 rounded-lg">
-            Search
+          <button onClick={handleSearch} className="bg-black text-white px-4 py-2 rounded-lg" disabled={loading}>
+            {loading ? "Searching..." : "Search"}
           </button>
         </div>
         <div className="mt-4 max-h-60 overflow-y-auto">
-          {results.length > 0 ? (
-            results.map((product) => (
-              <Link to={`/product/${product.id}`} key={product.id} className="block" onClick={onClose}>
-                <div className="flex items-center gap-4 mb-4 hover:bg-gray-100 p-2 rounded">
-                  <img
-                    src={product.image || "/placeholder.svg"}
-                    alt={product.name}
-                    className="w-16 h-16 object-cover rounded"
-                  />
-                  <div>
-                    <h3 className="font-semibold">{product.name}</h3>
-                    <p className="text-sm text-gray-600">{product.category}</p>
-                    <p className="font-medium">${product.price.toFixed(2)}</p>
+          {error && <p className="text-red-500">{error}</p>}
+          {results.length > 0
+            ? results.map((product) => (
+                <Link to={`/product/${product.id}`} key={product.id} className="block" onClick={onClose}>
+                  <div className="flex items-center gap-4 mb-4 hover:bg-gray-100 p-2 rounded">
+                    <img
+                      src={product.image || "/placeholder.svg"}
+                      alt={product.name}
+                      className="w-16 h-16 object-cover rounded"
+                    />
+                    <div>
+                      <h3 className="font-semibold">{product.name}</h3>
+                      <p className="text-sm text-gray-600">{product.category}</p>
+                      <p className="font-medium">${product.price.toFixed(2)}</p>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))
-          ) : (
-            searchQuery.trim() && <p className="text-gray-600">No results found</p>
-          )}
+                </Link>
+              ))
+            : searchQuery.trim() && !loading && <p className="text-gray-600">No results found</p>}
         </div>
       </div>
     </div>
@@ -90,3 +95,4 @@ const SearchModal = ({ isOpen, onClose }) => {
 }
 
 export default SearchModal
+

@@ -58,7 +58,7 @@
     {
       "id": 9,
       "name": "Armani Suit",
-      "category": "Clothing",
+      "category": "men-new",
       "price": 1299,
       "image": "https://assets.armani.com/image/upload/f_auto,q_auto,ar_4:5,w_2457,c_lfill/FW24-25_GA_ADV_CATALOGO_M_16_1080_x_1350"
     },
@@ -84,31 +84,61 @@
       "image": "https://in.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-55--M56714_PM1_Ambiance%20view.jpg"
     },
     {
-      "id": 1,
+      "id": 13,
       "name":"YSL- rouge pur couture lipstick",
       "category": "Makeup",
       "price": 35,
       "image": "https://www.godwell.com.hk/api/image/t512/985717839987eb066a219521583862fdabb31cf53038677489d361bc88aebe15.jpg"
   },
   {
-      "id": 2,
+      "id": 14,
       "name": "Dior- Anti-Aging Serum",
       "category": "Skincare",
       "price": 89,
       "image": "https://www.dior.com/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw20ccc52b/images/beauty/03-SKINCARE/2024/PRESTIGE-LES-NECTARS-DE-ROSE/PST_Nectar_Mood_Gamme-Nectar-Baume-Minuit-Rose_2400x3000.jpg"
   },
   {
-      "id": 3,
+      "id": 15,
       "name": "Prada Candy ",
       "category": "Fragrance",
       "price": 120,
       "image": "https://i.pinimg.com/originals/d2/b8/c2/d2b8c254113eae421fbbc977d00e40c3.jpg"
   },
   {
-      "id": 4,
+      "id": 16,
       "name": "YSL-Eyeshadow Palette",
       "category": "Makeup",
       "price": 55,
       "image": "https://images-static.nykaa.com/media/catalog/product/3/a/3a186b83614273921725-8.jpg?tr=w-500"
+  },
+  {
+    "id": 17,
+    "name": "Chanel-Hydra Beauty, Hydrating Face Mask",
+    "category": "Skincare",
+    "price": 45,
+    "image": "https://i.ebayimg.com/images/g/XisAAOSwY9Fl34H-/s-l1200.jpg",
+  },
+  {
+    "id": 18,
+    "name": "Rare beauty- Volumizing Mascara",
+    "category": "Makeup",
+    "price": 28,
+    "image": "https://pbs.twimg.com/media/GGt4I84WUAIvL2U.jpg:large",
+  },
+  {
+    "id": 19,
+    "name": "GUCCI- Unisex Cologne",
+    "category": "Fragrance",
+    "price": 85,
+    "image":
+      "https://www.perfumenetwork.in/cdn/shop/files/15Untitleddesign_b0c9776a-47d7-430e-aabc-d97b2e29d67d_1024x1024.png?v=1691906013",
+  },
+  {
+    "id": 20,
+    "name": "Dior Sauvage- Brightening Toner",
+    "category": "Skincare",
+    "price": 32,
+    "image":
+      "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwa664fc24/Y0997148/Y0997148_C099700673_E05_GHC.jpg?sw=800",
   }
   ]
