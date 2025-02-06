@@ -29,7 +29,7 @@ app.use(
 
 app.use(express.json())
 
-// Middleware to verify JWT
+
 const authenticateToken = (req, res, next) => {
   const authHeader = req.headers["authorization"]
   const token = authHeader && authHeader.split(" ")[1]

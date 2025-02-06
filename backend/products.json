@@ -116,14 +116,14 @@
     "name": "Chanel-Hydra Beauty, Hydrating Face Mask",
     "category": "Skincare",
     "price": 45,
-    "image": "https://i.ebayimg.com/images/g/XisAAOSwY9Fl34H-/s-l1200.jpg",
+    "image": "https://i.ebayimg.com/images/g/XisAAOSwY9Fl34H-/s-l1200.jpg"
   },
   {
     "id": 18,
     "name": "Rare beauty- Volumizing Mascara",
     "category": "Makeup",
     "price": 28,
-    "image": "https://pbs.twimg.com/media/GGt4I84WUAIvL2U.jpg:large",
+    "image": "https://pbs.twimg.com/media/GGt4I84WUAIvL2U.jpg:large"
   },
   {
     "id": 19,
@@ -131,7 +131,7 @@
     "category": "Fragrance",
     "price": 85,
     "image":
-      "https://www.perfumenetwork.in/cdn/shop/files/15Untitleddesign_b0c9776a-47d7-430e-aabc-d97b2e29d67d_1024x1024.png?v=1691906013",
+      "https://www.perfumenetwork.in/cdn/shop/files/15Untitleddesign_b0c9776a-47d7-430e-aabc-d97b2e29d67d_1024x1024.png?v=1691906013"
   },
   {
     "id": 20,
@@ -139,6 +139,6 @@
     "category": "Skincare",
     "price": 32,
     "image":
-      "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwa664fc24/Y0997148/Y0997148_C099700673_E05_GHC.jpg?sw=800",
+      "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwa664fc24/Y0997148/Y0997148_C099700673_E05_GHC.jpg?sw=800"
   }
   ]

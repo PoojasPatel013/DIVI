@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import Layout from "../components/Layout"
 import ProductCard from "../components/ProductCard"
 import HeroSlider from "../components/HeroSlider"
 import { Link } from "react-router-dom"
@@ -120,7 +119,7 @@ const CosmeticsPage = () => {
   }
 
   return (
-    <Layout>
+    <>
       <main className="pt-16">
         <HeroSlider slides={slides} />
 
@@ -199,7 +198,7 @@ const CosmeticsPage = () => {
           </div>
         </section>
       </main>
-    </Layout>
+    </>
   )
 }
 

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import Layout from "../components/Layout"
 import ProductCard from "../components/ProductCard"
 import HeroSlider from "../components/HeroSlider"
 import { Link } from "react-router-dom"
@@ -11,7 +10,6 @@ const MenPage = () => {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    // Simulating API call with local data
     const fetchData = () => {
       try {
         const data = {
@@ -116,7 +114,7 @@ const MenPage = () => {
   }
 
   return (
-    <Layout>
+    <>
       <main className="pt-16">
         <HeroSlider slides={slides} />
 
@@ -195,7 +193,7 @@ const MenPage = () => {
           </div>
         </section>
       </main>
-    </Layout>
+    </>
   )
 }
 
