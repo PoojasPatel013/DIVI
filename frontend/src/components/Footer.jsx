@@ -66,7 +66,7 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/category/cosmetics" className="text-gray-600 hover:text-gray-900">
+                <Link to="/cosmetics" className="text-gray-600 hover:text-gray-900">
                   Cosmetics
                 </Link>
               </li>
