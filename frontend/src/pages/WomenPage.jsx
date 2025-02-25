@@ -10,7 +10,7 @@ const WomenPage = () => {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    // Simulating API call with local data
+    
     const fetchData = () => {
       try {
         const data = {
@@ -20,7 +20,7 @@ const WomenPage = () => {
               name: "Floral Maxi Dress",
               category: "Clothing",
               price: 129,
-              image: "https://source.unsplash.com/800x1000/?floral-dress",
+              image: "",
             },
             {
               id: 2,
@@ -89,17 +89,17 @@ const WomenPage = () => {
 
   const slides = [
     {
-      image: "https://source.unsplash.com/1600x900/?womens-fashion",
+      image: "https://in.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--WOMEN_SS25_SHOW_%20KEY_LOOKS_LV-COM_DI3.jpg?wid={IMG_WIDTH}&hei={IMG_HEIGHT}",
       title: "Women's Spring Collection 2024",
       description: "Discover the latest trends in women's fashion",
     },
     {
-      image: "https://source.unsplash.com/1600x900/?womens-dresses",
+      image: "https://firstclasse.com.my/wp-content/uploads/2020/11/best-luxury-brands-burberry-luxe-digital.jpg",
       title: "Elegant Dresses",
       description: "Find the perfect dress for any occasion",
     },
     {
-      image: "https://source.unsplash.com/1600x900/?womens-accessories",
+      image: "https://cdn.luxatic.com/wp-content/uploads/2021/03/Louis-Vuitton.jpg",
       title: "Accessories Edit",
       description: "Complete your look with our curated accessories",
     },
