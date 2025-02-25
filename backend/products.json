@@ -23,7 +23,7 @@
     {
       "id": 4,
       "name": "Herme`s Birkin Bag",
-      "category": "Women's Accessories",
+      "category": "Accessories",
       "price": 599,
       "image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/03/931/523/picnic-birkin-hermes.jpg?ve=1&tl=1"
     },
@@ -51,7 +51,7 @@
     {
       "id": 8,
       "name": "Dior Prestige Skincare Set",
-      "category": "Beauty",
+      "category": "Skincare",
       "price": 299,
       "image": "https://shop-beauty.dior.ae/cdn/shop/files/Y4001188_C400100901_E02_GHC.jpg?v=1730194791&width=833"
     },
@@ -140,5 +140,61 @@
     "price": 32,
     "image":
       "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwa664fc24/Y0997148/Y0997148_C099700673_E05_GHC.jpg?sw=800"
+  },
+  {
+    "id": 21,
+    "name": "Louis Vuitton-Floral Maxi Dress",
+    "category": "Clothing",
+    "price": 129,
+    "image": "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-floral-print-long-sleeved-tiered-dress--FQDR36GQO001_PM1_Worn%20view.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Prada-Leather Tote Bag",
+    "category": "Accessories",
+    "price": 199,
+    "image": "https://cdn-images.farfetch-contents.com/22/72/85/53/22728553_52708332_1000.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Louis Vuitton- Washed Denim wide leg Jeans",
+    "category": "Clothing",
+    "price": 89,
+    "image": "https://uk.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-washed-denim-wide-leg-jeans--FRPT39MML703_PM1_Worn%20view.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Bulgari-Statement Earrings",
+    "category": "Accessories",
+    "price": 49,
+    "image": "https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dwc32d38f3/images/images/worn/425506.png"
+  },
+  {
+    "id": 25,
+    "name": "Gucci - Silk Shirt",
+    "category": "Clothing",
+    "price": 99,
+    "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1718123561/752917_ZANRP_2275_007_100_0000_Light-GG-Supreme-print-silk-shirt.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Saint Laurent- Strappy Sandals",
+    "category": "Footwear",
+    "price": 79,
+   "image": "https://media.vogue.in/wp-content/uploads/2018/05/Shoes-Saint-Laurent.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Oversized Sunglasses",
+    "category": "Accessories",
+    "price": 59,
+    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbd7d6c36/original/90_O4458-OGB18754_ONUL_24_MedusaDecoButterflySunglasses-Sunglasses-Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+  },
+  {
+    "id": 28,
+    "name": "Louis Vuitton - Wrap Skirt",
+    "category": "women-clothing",
+    "price": 69,
+    "image": "https://au.louisvuitton.com/images/is/poster-video/ab9e955a-6141-355d-9bb2-f40fb6d3a8c8-1716982995.jpg"
   }
   ]

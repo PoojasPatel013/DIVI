@@ -16,62 +16,62 @@ const WomenPage = () => {
         const data = {
           featured: [
             {
-              id: 1,
-              name: "Floral Maxi Dress",
+              id: 21,
+              name: "Louis Vuitton-Floral Maxi Dress",
               category: "Clothing",
               price: 129,
-              image: "",
+              image: "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-floral-print-long-sleeved-tiered-dress--FQDR36GQO001_PM1_Worn%20view.jpg",
             },
             {
-              id: 2,
-              name: "Leather Tote Bag",
+              id: 22,
+              name: "Prada-Leather Tote Bag",
               category: "Accessories",
               price: 199,
-              image: "https://source.unsplash.com/800x1000/?leather-bag",
+              image: "https://cdn-images.farfetch-contents.com/22/72/85/53/22728553_52708332_1000.jpg",
             },
             {
-              id: 3,
-              name: "High-Waisted Jeans",
+              id: 23,
+              name: "Louis Vuitton- Washed Denim wide leg Jeans",
               category: "Clothing",
               price: 89,
-              image: "https://source.unsplash.com/800x1000/?jeans",
+              image: "https://uk.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-washed-denim-wide-leg-jeans--FRPT39MML703_PM1_Worn%20view.jpg",
             },
             {
-              id: 4,
-              name: "Statement Earrings",
+              id: 24,
+              name: "Bulgari-Statement Earrings",
               category: "Accessories",
               price: 49,
-              image: "https://source.unsplash.com/800x1000/?earrings",
+              image: "https://media2.bulgari.com/f_auto,q_auto,c_pad,h_520,w_520/production/dwc32d38f3/images/images/worn/425506.png",
             },
           ],
           trending: [
             {
-              id: 5,
-              name: "Silk Blouse",
+              id: 25,
+              name: "Gucci - Silk Shirt",
               category: "Clothing",
               price: 99,
-              image: "https://source.unsplash.com/800x1000/?silk-blouse",
+              image: "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1718123561/752917_ZANRP_2275_007_100_0000_Light-GG-Supreme-print-silk-shirt.jpg",
             },
             {
-              id: 6,
-              name: "Strappy Sandals",
+              id: 26,
+              name: "Saint Laurent- Strappy Sandals",
               category: "Footwear",
               price: 79,
-              image: "https://source.unsplash.com/800x1000/?sandals",
+              image: "https://media.vogue.in/wp-content/uploads/2018/05/Shoes-Saint-Laurent.jpg",
             },
             {
-              id: 7,
+              id: 27,
               name: "Oversized Sunglasses",
               category: "Accessories",
               price: 59,
-              image: "https://source.unsplash.com/800x1000/?sunglasses",
+              image: "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbd7d6c36/original/90_O4458-OGB18754_ONUL_24_MedusaDecoButterflySunglasses-Sunglasses-Versace-online-store_1_1.jpg?sw=850&q=85&strip=true",
             },
             {
-              id: 8,
-              name: "Wrap Skirt",
+              id: 28,
+              name: "Louis Vuitton - Wrap Skirt",
               category: "Clothing",
               price: 69,
-              image: "https://source.unsplash.com/800x1000/?skirt",
+              image: "https://au.louisvuitton.com/images/is/poster-video/ab9e955a-6141-355d-9bb2-f40fb6d3a8c8-1716982995.jpg",
             },
           ],
         }
@@ -136,7 +136,7 @@ const WomenPage = () => {
               <Link to="/category/clothing" className="group category-card">
                 <div className="relative aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
                   <img
-                    src="https://source.unsplash.com/800x1000/?womens-clothing"
+                    src="https://i.pinimg.com/236x/4d/68/b8/4d68b8cf71659aeb6e36f1860b39d465.jpg"
                     alt="Women's Clothing"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -151,7 +151,7 @@ const WomenPage = () => {
               <Link to="/category/shoes" className="group category-card">
                 <div className="relative aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
                   <img
-                    src="https://source.unsplash.com/800x1000/?womens-shoes"
+                    src="https://us.christianlouboutin.com/media/catalog/product/cache/e88e85f4e5336c618abbd9e5f93aeaf8/1/1/1190911bk01-1190911bk01-hover-ecommerce-christianlouboutin-hotchick-1190911_bk01_2_1200x1200.jpg"
                     alt="Women's Shoes"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -166,7 +166,7 @@ const WomenPage = () => {
               <Link to="/category/accessories" className="group category-card">
                 <div className="relative aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
                   <img
-                    src="https://source.unsplash.com/800x1000/?womens-accessories"
+                    src="https://www.bulgari.com/on/demandware.static/-/Library-Sites-bulgariSharedLibrary/default/dwc39cc3a5/the_maison/bulgari_history/SLIDER_1/5_410x410.jpg"
                     alt="Women's Accessories"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />

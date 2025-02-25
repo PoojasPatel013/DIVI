@@ -69,10 +69,10 @@ function Header({ openCartSidebar, openProfileModal, openSearchModal }) {
                 <Link to="/category/women-new" className="nav-dropdown-link">
                   New Arrivals
                 </Link>
-                <Link to="/category/women-clothing" className="nav-dropdown-link">
+                <Link to="/category/Clothing" className="nav-dropdown-link">
                   Clothing
                 </Link>
-                <Link to="/category/women-shoes" className="nav-dropdown-link">
+                <Link to="/category/footwear" className="nav-dropdown-link">
                   Shoes
                 </Link>
               </div>
