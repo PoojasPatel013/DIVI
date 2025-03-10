@@ -94,12 +94,12 @@ const MenPage = () => {
       description: "Discover the latest trends in men's fashion",
     },
     {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtV4mPvvGk7YQuYHoKpcRmpu0Zjxj-ELW4ZuiedyicJmjnvI5keOilKzg0JD_1l4ZnE64&usqp=CAU",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdNHLSmn1XNt94lxtaQbdaErcgxp7w9-qcQg&s",
       title: "Luxury Suits",
       description: "Timeless elegance for the modern gentleman",
     },
     {
-      image: "https://source.unsplash.com/1600x900/?mens-accessories",
+      image: "",
       title: "Accessories Edit",
       description: "Complete your look with our curated accessories",
     },

@@ -24,11 +24,11 @@ function Header({ openCartSidebar, openProfileModal, openSearchModal }) {
                 <ChevronDown className="w-4 h-4" />
               </button>
               <div className="nav-dropdown group-hover:visible group-hover:opacity-100 group-hover:translate-y-0">
-                <Link to="/category/spring-2024" className="nav-dropdown-link">
-                  Spring 2024
+                <Link to="/men" className="nav-dropdown-link">
+                  Men
                 </Link>
-                <Link to="/category/summer-2024" className="nav-dropdown-link">
-                  Summer Preview
+                <Link to="/women" className="nav-dropdown-link">
+                  Women
                 </Link>
                 <Link to="/category/accessories" className="nav-dropdown-link">
                   Accessories
@@ -48,11 +48,11 @@ function Header({ openCartSidebar, openProfileModal, openSearchModal }) {
                 <Link to="/category/men-new" className="nav-dropdown-link">
                   New Arrivals
                 </Link>
-                <Link to="/category/men-clothing" className="nav-dropdown-link">
+                <Link to="/category/Clothing" className="nav-dropdown-link">
                   Clothing
                 </Link>
-                <Link to="/category/men-shoes" className="nav-dropdown-link">
-                  Shoes
+                <Link to="/category/footwear" className="nav-dropdown-link">
+                  Footwear
                 </Link>
               </div>
             </div>
