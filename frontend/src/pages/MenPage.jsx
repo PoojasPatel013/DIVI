@@ -94,12 +94,12 @@ const MenPage = () => {
       description: "Discover the latest trends in men's fashion",
     },
     {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdNHLSmn1XNt94lxtaQbdaErcgxp7w9-qcQg&s",
+      image: "https://robbreport.com/wp-content/uploads/2018/05/boglioli.jpg?w=1000",
       title: "Luxury Suits",
       description: "Timeless elegance for the modern gentleman",
     },
     {
-      image: "",
+      image: "https://i.pinimg.com/736x/5b/5b/d1/5b5bd19ec3c44203d620fb0a702df2a3.jpg",
       title: "Accessories Edit",
       description: "Complete your look with our curated accessories",
     },
