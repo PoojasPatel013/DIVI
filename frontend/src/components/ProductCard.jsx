@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className="group">
       <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
-        <Link to={`/product/${product.id}`} className="group">
+        <Link to={`${import.meta.env.REACT_APP_API_URL}/product/${product.id}`} className="group">
           <img
             src={product.image || "/placeholder.svg"}
             alt={product.name}
@@ -28,7 +28,7 @@ const ProductCard = ({ product }) => {
       </div>
       <div className="mt-4 text-center">
         <p className="text-sm text-gray-500 uppercase">{product.category}</p>
-        <Link to={`/product/${product.id}`}>
+        <Link to={`${import.meta.env.REACT_APP_API_URL}/product/${product.id}`}>
           <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
         </Link>
         <p className="mt-1 text-lg font-medium text-gray-900">${product.price.toFixed(2)}</p>

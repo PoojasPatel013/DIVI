@@ -8,7 +8,7 @@ const ProfileModal = ({ isOpen, onClose }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    const endpoint = isLogin ? "/api/login" : "/api/register"
+    const endpoint = isLogin ? "${import.meta.env.REACT_APP_API_URL}/api/login" : "${import.meta.env.REACT_APP_API_URL}/api/register"
 
     try {
       const response = await fetch(endpoint, {

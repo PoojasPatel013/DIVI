@@ -10,7 +10,7 @@ const Product = () => {
   const { addToCart } = useContext(CartContext)
 
   useEffect(() => {
-    fetch(`/api/product/${id}`)
+    fetch(`${import.meta.env.REACT_APP_API_URL}/api/product/${id}`)
       .then((response) => response.json())
       .then((data) => setProduct(data))
       .catch((error) => console.error("Error:", error))

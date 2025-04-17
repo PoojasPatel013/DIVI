@@ -23,7 +23,7 @@ const SearchModal = ({ isOpen, onClose }) => {
     setError(null)
 
     try {
-      const response = await fetch(`/api/search?query=${encodeURIComponent(searchQuery)}`)
+      const response = await fetch(`${import.meta.env.REACT_APP_API_URL}/api/search?query=${encodeURIComponent(searchQuery)}`)
       if (!response.ok) {
         throw new Error("Search failed")
       }
@@ -72,7 +72,7 @@ const SearchModal = ({ isOpen, onClose }) => {
           {error && <p className="text-red-500">{error}</p>}
           {results.length > 0
             ? results.map((product) => (
-                <Link to={`/product/${product.id}`} key={product.id} className="block" onClick={onClose}>
+                <Link to={`${import.meta.env.REACT_APP_API_URL}/product/${product.id}`} key={product.id} className="block" onClick={onClose}>
                   <div className="flex items-center gap-4 mb-4 hover:bg-gray-100 p-2 rounded">
                     <img
                       src={product.image || "/placeholder.svg"}
