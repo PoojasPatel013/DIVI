@@ -21,7 +21,7 @@ const Order = require("./models/Order")
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "https://divi-luxe.vercel.app/",
+    origin: process.env.FRONTEND_URL || "https://divi-luxe.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   }),
