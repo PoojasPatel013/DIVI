@@ -7,7 +7,7 @@ const Category = () => {
   const { slug } = useParams()
 
   useEffect(() => {
-    fetch(`${import.meta.env.REACT_APP_API_URL}/api/category/${slug}`)
+    fetch(`${import.meta.env.VITE_API_URL}/api/category/${slug}`)
       .then((response) => response.json())
       .then((data) => setProducts(data))
       .catch((error) => console.error("Error:", error))

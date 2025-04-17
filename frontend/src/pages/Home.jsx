@@ -40,7 +40,7 @@ const Home = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("${import.meta.env.REACT_APP_API_URL}/api/products")
+        const response = await fetch("${import.meta.env.VITE_API_URL}/api/products")
         const data = await response.json()
         setFeaturedProducts(data.slice(0, 4))
         setTrendingProducts(data.slice(4, 8))
